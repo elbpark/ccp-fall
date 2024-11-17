@@ -1,28 +1,19 @@
-<script>
-<!--
-/*
-Random link button- By JavaScript Kit (http://javascriptkit.com)
-Over 300+ free scripts!
-This credit MUST stay intact for use
-*/
+<script type="text/javascript">
 
-//specify random links below. You can have as many as you want
-var randomlinks=new Array()
+var urls = new Array();
+urls[0] = "http://learninginhand.com";
+urls[1] = "http://learninginhand.com/about";
+urls[2] = "http://learninginhand.com/contact";
+urls[4] = "http://learninginhand.com/services";
+urls[5] = "http://learninginhand.com/videos";
+urls[6] = "http://learninginhand.com/infographics";
+urls[7] = "http://learninginhand.com/resources";
+urls[8] = "http://learninginhand.com/stickaround";
+urls[9] = "http://learninginhand.com/posts";
+urls[10] = "http://learninginhand.com/pet";
 
-randomlinks[0]="http://freewarejava.com"
-randomlinks[1]="http://javascriptkit.com"
-randomlinks[2]="http://dynamicdrive.com"
-randomlinks[3]="http://cnn.com"
-randomlinks[4]="http://www.geocities.com"
+var random = Math.floor(Math.random()*urls.length);
 
-function randomlink(){
-window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
-}
-//-->
+window.location = urls[random];
+
 </script>
-<form method="post">
-<p><input type="button" name="B1" value="Random Link >>" onclick="randomlink()"></p> </form>
-
-<!--Uncomment below to use a regular text link instead
-<a href="javascript:randomlink()">Random Link</a>
--->
