@@ -1,1 +1,35 @@
+<style>
+h1 {font-family: "Lucida Console", monospace;}
+h2 {font-family: "Lucida Console", monospace;}  
+body {font-family: "Lucida Console", monospace;}
+p {font-family: "Lucida Console", monospace;}
+</style>
+<script>
+<!--
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!
+This credit MUST stay intact for use
+*/
 
+//specify random links below. You can have as many as you want
+var randomlinks=new Array()
+
+randomlinks[0]="https://elbpark.github.io/ccp-fall/pages/1"
+randomlinks[1]="https://elbpark.github.io/ccp-fall/pages/2"
+randomlinks[2]="https://elbpark.github.io/ccp-fall/pages/4"
+randomlinks[3]="https://elbpark.github.io/ccp-fall/pages/5"
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+//-->
+</script>
+
+<h1>Sausages - Nitrosamines</h1>
+<h2>How is it formed?</h2>
+<body>Nitrites exist within sausages and other cured meats. When these nitrites come together with secondary amines, a nitrogen atom bonded to two groups of atoms containing carbon, nitrosamines are created.<br>
+Nitrosamines are potentially harmful to the human body, as they are carcinogenic (can cause cancer) and mutogenic (can mutate genetics.) However, according to the National Library of Medicine, the resulting health risks are very low as long as one consumes foods containing nitrosamines in moderation. </body>
+<form method="post">
+<p><input type="button" name="B1" value="Click here for another food and chemical pair." onclick="randomlink()"></p> </form>
+<p><input type="button" name="B1" value="Click here to reset and go to main page." onclick="window.location='https://elbpark.github.io/ccp-fall/'"></p> </form>
