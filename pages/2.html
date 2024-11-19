@@ -4,27 +4,7 @@ h2 {font-family: "Lucida Console", monospace;}
 body {font-family: "Lucida Console", monospace;}
 p {font-family: "Lucida Console", monospace;}
 </style>
-<script>
-<!--
-/*
-Random link button- By JavaScript Kit (http://javascriptkit.com)
-Over 300+ free scripts!
-This credit MUST stay intact for use
-*/
 
-//specify random links below. You can have as many as you want
-var randomlinks=new Array()
-
-randomlinks[0]="https://elbpark.github.io/ccp-fall/pages/1"
-randomlinks[1]="https://elbpark.github.io/ccp-fall/pages/3"
-randomlinks[2]="https://elbpark.github.io/ccp-fall/pages/4"
-randomlinks[3]="https://elbpark.github.io/ccp-fall/pages/5"
-
-function randomlink(){
-window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
-}
-//-->
-</script>
 <h1>Bread - Acrylamide</h1>
 <img src="breaddiagram.png" width = "300">
 <p><i>Bread</i></p>
@@ -34,5 +14,5 @@ window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 <body>When bread is heated, the sugars and amino acids inside react during the same reaction that darkens the bread- the Maillard reaction. <br>
 This creates acrylamide. Acrylamide is a potential carcinogen (a substance with cancer-causing capabilities) but the average human consumption of it thankfully isn't enough to cause cancer.</body>
 <form method="post">
-<p><input type="button" name="B1" value="Click here for another food and chemical pair." onclick="randomlink()"></p> </form>
+<p><input type="button" name="B1" value="Click here for another food and chemical pair." onclick="window.location='https://elbpark.github.io/ccp-fall/pages/3'"></p> </form>
 <p><input type="button" name="B1" value="Click here to reset and go to main page." onclick="window.location='https://elbpark.github.io/ccp-fall/'"></p> </form>
