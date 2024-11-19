@@ -4,27 +4,7 @@ h2 {font-family: "Lucida Console", monospace;}
 body {font-family: "Lucida Console", monospace;}
 p {font-family: "Lucida Console", monospace;}
 </style>
-<script>
-<!--
-/*
-Random link button- By JavaScript Kit (http://javascriptkit.com)
-Over 300+ free scripts!
-This credit MUST stay intact for use
-*/
 
-//specify random links below. You can have as many as you want
-var randomlinks=new Array()
-
-randomlinks[0]="https://elbpark.github.io/ccp-fall/pages/2"
-randomlinks[1]="https://elbpark.github.io/ccp-fall/pages/3"
-randomlinks[2]="https://elbpark.github.io/ccp-fall/pages/4"
-randomlinks[3]="https://elbpark.github.io/ccp-fall/pages/5"
-
-function randomlink(){
-window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
-}
-//-->
-</script>
 
 <h1>Roasted Coffee - Furan</h1>
 <img src="roastedcoffeebeansdiagram.png" width="250">
@@ -35,5 +15,5 @@ window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 <body>Furan is formed when foods containing constituents such as carbohydrates are thermally degraded through heating during its processing. <br>
 For example, this thermal degradation occurs when coffee grounds are roasted, leading to the presence of furan.</body>
 <form method="post">
-<p><input type="button" name="B1" value="Click here for another food and chemical pair." onclick="randomlink()"></p> </form>
+<p><input type="button" name="B1" value="Click here for another food and chemical pair." onclick="window.location='https://elbpark.github.io/ccp-fall/pages/2'"></p> </form>
 <p><input type="button" name="B1" value="Click here to reset and go to main page." onclick="window.location='https://elbpark.github.io/ccp-fall/'"></p> </form>
